@@ -1,0 +1,6 @@
+network :
+    host : 10.0.0.4
+bootstrap.mlockall: true
+cluster:
+  name: mentormint
+  endpoint: search-mentormint-iv4fhzpccfoqidwz5gxahwbum4.us-west-1.es.amazonaws.com
