@@ -5,7 +5,7 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-module MentormintApi
+module ForumApi
   class Application < Rails::Application
     Dotenv::Railtie.load if Rails.env.development? || Rails.env.test?
 
